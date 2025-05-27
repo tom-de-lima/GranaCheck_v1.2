@@ -1,6 +1,6 @@
 /* Reset básico e variáveis de tema */
 :root {
-    --cor-fundo: #f0f0f0;
+    --cor-fundo: #2C3E50;
     --cor-entrada-bg: #2c3e50;       /* azul noturno */
     --cor-button-bg: #2c3e50;
     --cor-button-hover: #34495e;
@@ -32,7 +32,7 @@
     margin: 0 auto;
     background: #fff;
     padding: calc(var(--espacamento) * 1.5);
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     border-radius: var(--border-radius);
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
@@ -139,7 +139,7 @@
     font-family: 'Segoe UI', Tahoma, sans-serif;
     font-size: 0.85rem;
     text-align: center;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+    box-shadow: 12px -12px 12px rgba(0,0,0,0.1);
     margin-top: var(--espacamento);
   }
   
@@ -158,6 +158,17 @@
   .footer a:hover {
     color: #fff;
     text-decoration: underline;
+  }
+
+  .landing .itensV {
+    color: #F1601F;
+    line-height: 0.4;
+    text-align: justify;
+  }
+
+  .landing #titleH3 {
+    margin: 16px;
+    text-align: justify;
   }
   
   
