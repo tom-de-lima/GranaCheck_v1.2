@@ -133,7 +133,7 @@
   
   .footer {
     background-color: var(--cor-entrada-bg);    /* Azul noturno */
-    color: #ecf0f1;                              /* Texto claro */
+    color: #70a9b6;                              /* Texto claro */
     padding: calc(var(--espacamento) * 1.5);
     border-radius: 0 0 var(--border-radius) var(--border-radius);
     font-family: 'Segoe UI', Tahoma, sans-serif;
@@ -162,8 +162,9 @@
 
   .landing .itensV {
     color: #F1601F;
-    line-height: 0.4;
+    line-height: 0.8;
     text-align: justify;
+    font-size: 0.8em;
   }
 
   .landing #titleH3 {
