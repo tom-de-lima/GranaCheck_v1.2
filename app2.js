@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
       fatorAdNoturno = 3.13
     } else if (escolaridade === 4) {
       acrescimo = 0.3
-      fatorAdNoturno = 3.91
+      fatorAdNoturno = 3.39
     }
 
     baseAtual += baseAtual * acrescimo
