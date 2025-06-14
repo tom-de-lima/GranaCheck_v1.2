@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
       totalBruto -
       (previdencia + auxAlimenta + valorEspecializacao + valorDependentes)
     let descontoIR = 0
-    if (baseCalculoIR <= 2259.2) descontoIR = 0
+    if (baseCalculoIR <= 2428.80) descontoIR = 0
     else if (baseCalculoIR <= 2826.65)
       descontoIR = baseCalculoIR * 0.075 - 182.16
     else if (baseCalculoIR <= 3751.05)
