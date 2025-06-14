@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let fatorAdNoturno = 1
 
     if (escolaridade === 1){
-      acrescimo = 1
+      acrescimo = 0 // Corrigir e entender porque deve ser 0 - Feito
       fatorAdNoturno = 2.60
     }
     else if (escolaridade === 2) {
@@ -164,12 +164,12 @@ document.addEventListener("DOMContentLoaded", () => {
     let descontoIR = 0
     if (baseCalculoIR <= 2259.2) descontoIR = 0
     else if (baseCalculoIR <= 2826.65)
-      descontoIR = baseCalculoIR * 0.075 - 169.44
+      descontoIR = baseCalculoIR * 0.075 - 182.16
     else if (baseCalculoIR <= 3751.05)
-      descontoIR = baseCalculoIR * 0.15 - 381.44
+      descontoIR = baseCalculoIR * 0.15 - 394.16
     else if (baseCalculoIR <= 4664.68)
-      descontoIR = baseCalculoIR * 0.225 - 662.77
-    else descontoIR = baseCalculoIR * 0.275 - 896.0
+      descontoIR = baseCalculoIR * 0.225 - 675.45
+    else descontoIR = baseCalculoIR * 0.275 - 908.73
 
     const totalLiquido =
       totalBruto - (previdencia + descontoIR + sindicato + outrosDescontos)
